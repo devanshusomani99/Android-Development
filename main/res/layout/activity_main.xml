@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.devanshu.notifier.MainActivity">
+    tools:context="com.example.devanshu.memecreator.MainActivity">
 
-
-    <Button
-        android:id="@+id/b"
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.devanshu.memecreator.TopFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:onClick="notify"
-        android:text="Click me for Notification" />
-</android.widget.RelativeLayout>
+        tools:layout="@layout/top_fragment"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.devanshu.memecreator.BottomFragment"
+        android:layout_width="263dp"
+        android:layout_height="263dp"
+        tools:layout="@layout/bottom_fragment"
+        tools:layout_editor_absoluteY="232dp"
+        tools:layout_editor_absoluteX="61dp" />
+</android.support.constraint.ConstraintLayout>
