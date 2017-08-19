@@ -4,52 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.devanshu.sql.MainActivity">
+    tools:context="com.example.devanshu.notifier.MainActivity">
 
-    <EditText
-        android:id="@+id/text"
+
+    <Button
+        android:id="@+id/b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="59dp"
-        android:ems="10"
-        android:inputType="textPersonName" />
-
-    <Button
-        android:id="@+id/add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/text"
-        android:layout_alignStart="@+id/text"
-        android:layout_below="@+id/text"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="49dp"
-        android:onClick="badd"
-        android:text="Add" />
-
-    <Button
-        android:id="@+id/delete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/text"
-        android:layout_alignRight="@+id/text"
-        android:layout_alignTop="@+id/add"
-        android:layout_marginEnd="11dp"
-        android:layout_marginRight="11dp"
-        android:onClick="bdel"
-        android:text="Delete" />
-
-    <TextView
-        android:id="@+id/input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:text="ABCD"
-        android:textAlignment="center"
-        android:textColor="@color/colorAccent"
-        android:textSize="14sp" />
+        android:onClick="notify"
+        android:text="Click me for Notification" />
 </android.widget.RelativeLayout>
