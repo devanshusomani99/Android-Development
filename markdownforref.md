@@ -1,6 +1,6 @@
 # ACA Project Markdown File - Android Development
 
-##### *By Devanshu Somani and Niket Agrawal*
+##### *By Devanshu Somani(160231) and Niket Agrawal(160446)*
 
 In our project, we aimed at learning basic android application developing techniques using Android Studio.
 
@@ -13,7 +13,7 @@ The image could then be captured, saved and viewed whenever required.
 We used SQL language for creating a basic database that could store some data given to it and can keep it available even after the app is switched off.
 The app could add or remove rows as per our requirement.
 3. Fitstep App -
-Fitstep is an android fitness app which can measure the number of steps taken by user as he/she works out which makes it unique in terms of fitness app.
+Fitstep is an android fitness app which can measure the number of steps taken by user as he/she works out which makes it unique in terms of fitness app.  
 And many more..
 
 **Android Studio**
@@ -26,13 +26,17 @@ And many more..
 * Also, a file named AndroidManifest.xml serves the purpose of parental controls and decides whether various permissions like internet access, background functioning, notification access etc.
 * We learnt many app building processes and methods to create many types of apps and adding many elements to the applications which we generally see in real life apps.
 
-**Project Links**
+**Some Project Links**
 
 SQL Database App - https://github.com/devanshusomani99/Android-Development/tree/d9764b25d2885dfba99d0ad6c9cb5ee09205fa13  
 Broadcaster And Receiver - https://github.com/devanshusomani99/Android-Development/tree/5b1aa74a74bf89810aec9a6775264c84d0d973ff  
 Fragments App (Meme Creator) - https://github.com/devanshusomani99/Android-Development/tree/85c8e2315137e964ac0c7e4b1ca5e458bf075fd6  
 Notifier App - https://github.com/devanshusomani99/Android-Development/tree/7baf19e841cc2a7194a676ec20d8515a1e0011c0  
 SharedPreferences App (Styles) - https://github.com/devanshusomani99/Android-Development/tree/2ddb9f188d77d07281fc4e933bacc3b212d529d9  
+
+**How to view these projects?**
+
+Android Studio saves all the necessary data of the project inside the subdirectory "app" inside the main project folder. So what is on the links should be first copied into a project and must then be viewed after opening Android Studio.
 
 **Resources Used**
 
